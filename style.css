@@ -39,6 +39,8 @@ h1 {
   position: absolute;
   left: -9999px;
   top: -9999px;
+  opacity: 0;
+  visibility: hidden !important;
 }
 
 .seo-heading {
@@ -46,6 +48,7 @@ h1 {
   left: -9999px !important;
   top: -9999px !important;
   opacity: 0;
+  visibility: hidden !important;
   pointer-events: none;
 }
 
@@ -56,14 +59,7 @@ h1 {
   color: var(--black);
   font-size: 5rem;
   letter-spacing: 0.4rem;
-  /* transform: scale(var(--scale-start));
-  transition: transform 1000ms var(--ease-bounce-out), opacity 1000ms ease-out; */
 }
-
-/* .heading.animate {
-  opacity: 1;
-  transform: scale(var(--scale-end));
-} */
 
 .heading span {
   color: var(--green);
