@@ -6,17 +6,28 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ojashomoeopathy.in/about.html</loc>
+    <loc>https://ojashomoeopathy.in/about_us</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://ojashomoeopathy.in/homoeopathy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ojashomoeopathy.in/testimonials</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ojashomoeopathy.in/services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ojashomoeopathy.in/services.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ojashomoeopathy.in/contact.html</loc>
+    <loc>https://ojashomoeopathy.in/contact_us</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
