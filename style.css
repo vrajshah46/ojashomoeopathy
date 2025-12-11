@@ -481,6 +481,13 @@ section {
   top: -9999px;
 }
 
+.our-mission .content h2 {
+  color: var(--black);
+  text-shadow: var(--text-shadow);
+  font-size: 3rem;
+  line-height: 1.8;
+}
+
 .our-mission .content h3 {
   color: var(--black);
   text-shadow: var(--text-shadow);
