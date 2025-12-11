@@ -35,6 +35,18 @@ section {
   padding: 2rem 9%;
 }
 
+h1 {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.seo-heading {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
 .heading {
   text-align: center;
   padding-bottom: 2rem;
@@ -473,14 +485,6 @@ section {
 
 .our-mission .heading span {
   color: var(--green);
-}
-
-.seo-heading {
-  position: absolute;
-  left: -9999px;
-  top: -9999px;
-  visibility: hidden;
-  opacity: 0;
 }
 
 .our-mission .content h2 {
