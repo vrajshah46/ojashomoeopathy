@@ -479,6 +479,8 @@ section {
   position: absolute;
   left: -9999px;
   top: -9999px;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .our-mission .content h2 {
