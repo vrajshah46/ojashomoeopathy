@@ -475,6 +475,12 @@ section {
   color: var(--green);
 }
 
+.seo-heading {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
 .our-mission .content h3 {
   color: var(--black);
   text-shadow: var(--text-shadow);
