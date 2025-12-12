@@ -15,15 +15,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- 1) Preconnect to Font CDN (helps reduce DNS/TCP latency) -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+<!-- 3) Preload third-party CSS (Font Awesome) to reduce render delay -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></noscript>
+
     <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+     <link rel="stylesheet" href="/assets/css/aos.css">
 
       <!-- GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -39,7 +48,7 @@
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "name": "Ojas Homeopathy",
-  "image": "Images/Logo_navbar.png",
+  "image": "Images/Logo_navbar.webp",
   "url": "https://ojashomoeopathy.in",
   "telephone": "+91-9909896406",
   "address": {
@@ -112,7 +121,7 @@
 
 
     <header class="header">
-      <a href="index.html" class="logo"> <img src="Images/Logo_navbar.png" alt="" /> </a>
+      <a href="/" class="logo"> <img src="Images/Logo_navbar.webp" alt="Ojas homoeopathy Logo" loading="lazy"/> </a>
 
       <nav class="navbar">
         
@@ -136,7 +145,7 @@
        
       <div class="Main-picture">
        
-        <img src="Images/Main_picture.png" alt="Main_Picture" class="zoom-grow"/>
+        <img src="Images/Main_picture.webp" alt="Main_Picture" loading="lazy" class="zoom-grow"/>
         <a href="tel:+919909896406" class="btn">
           Book Appointment <span><i class="fa-solid fa-phone"></i></span>
         </a>
@@ -144,9 +153,10 @@
 
        <div class="about-image" data-aos="fade-left">
           <img
-            src="Images/Doctor_image.png"
+            src="Images/Doctor_image.webp"
             alt="Dr. Nihar Kalaria - Homeopathic Doctor"
             class="doctor-image"
+            loading="lazy"
           />
           <div class="doctor-info">
             <h4>Dr. Nihar Kalaria</h4>
@@ -177,8 +187,7 @@
 
       <div class="our-mission-content">
         <div class="shape-top"></div>
-<!-- <div class="shape-bottom"></div> -->
-  <h1 class="seo-heading" style="position:absolute;left:-9999px;top:-9999px;opacity:0;pointer-events:none;">Best Homeopathic Clinic & Store in Junagadh – Ojas Homeopathy</h1>
+             <h1 class="seo-heading" style="position:absolute;left:-9999px;top:-9999px;opacity:0;pointer-events:none;">Best Homeopathic Clinic & Store in Junagadh – Ojas Homeopathy</h1>
         <h2 class="heading" >Our <span>Mission</span></h2>
        
       <div class="content" data-aos="fade-up">
@@ -219,7 +228,7 @@
           </p>
         </div>
 
-        <div class="uniqe-box">
+        <div class="uniqe-box lazy-bg">
           <div class="unique-subheading">
             <span><i class="fa-solid fa-check"></i></span>
           <h3>Feel like home experience</h3>
@@ -410,7 +419,7 @@
 
           <div class="box">
               <div class="footer-img">
-                <img src="Images/footer-image.png" alt="">  
+                <img src="Images/footer-image.webp" alt="footer image ojas homoeopathy" loading="lazy">  
                 
               </div>
            <a href="tel:+919909896406" class="btn"

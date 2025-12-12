@@ -24,8 +24,19 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- 1) Preconnect to Font CDN (helps reduce DNS/TCP latency) -->
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+<!-- 3) Preload third-party CSS (Font Awesome) to reduce render delay -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"></noscript>
+
+
+
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/assets/css/aos.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -79,7 +90,7 @@
 
 
     <header class="header">
-      <a href="index.html" class="logo"> <img src="Images/Logo_navbar.png" alt="" /> </a>
+      <a href="/" class="logo"> <img src="Images/Logo_navbar.webp" alt="Ojas homoeopathy Logo" loading="lazy"/> </a>
 
       <nav class="navbar">
         <a href="/">Home</a>
@@ -143,7 +154,7 @@
       <!-- 3️⃣ Child Health -->
       <div class="service-row">
         <div class="service-img reveal">
-          <img src="Images/services-image3.jpeg"  alt="Skin and hair treatment at Ojas Homeopathy - acne, eczema, hair fall treatment in Junagadh"
+          <img src="Images/services-image3.webp"  alt="Skin and hair treatment at Ojas Homeopathy - acne, eczema, hair fall treatment in Junagadh"
       loading="lazy"/>
         </div>
         <div class="service-content">
@@ -157,7 +168,7 @@
       <!-- 4️⃣ Digestive (alternate) -->
       <div class="service-row reverse">
         <div class="service-img reveal">
-          <img src="Images/services-image4.jpg"  alt="Women's health and hormonal balance treatment at Ojas Homeopathy, PCOS and menstrual care"
+          <img src="Images/services-image4.webp"  alt="Women's health and hormonal balance treatment at Ojas Homeopathy, PCOS and menstrual care"
       loading="lazy"/>
         </div>
         <div class="service-content">
@@ -171,7 +182,7 @@
       <!-- 3️⃣ Child Health -->
       <div class="service-row">
         <div class="service-img reveal">
-          <img src="Images/services-image3.jpeg"  alt="Child health and immunity care at Ojas Homeopathy - treatment for repeated colds and skin allergies"
+          <img src="Images/services-image3.webp"  alt="Child health and immunity care at Ojas Homeopathy - treatment for repeated colds and skin allergies"
       loading="lazy"/>
         </div>
         <div class="service-content">
@@ -185,7 +196,7 @@
       <!-- 4️⃣ Digestive (alternate) -->
       <div class="service-row reverse">
         <div class="service-img reveal">
-          <img src="Images/services-image1.jpg" alt="Stress, anxiety and sleep disorder treatment at Ojas Homeopathy"
+          <img src="Images/services-image1.webp" alt="Stress, anxiety and sleep disorder treatment at Ojas Homeopathy"
       loading="lazy"/>
         </div>
         <div class="service-content">
@@ -203,7 +214,7 @@
 
           <div class="box">
               <div class="footer-img">
-                <img src="Images/footer-image.png" alt="">  
+                <img src="Images/footer-image.webp" alt="footer image ojas homoeopathy" loading="lazy">  
                 
               </div>
            <a href="tel:+919909896406" class="btn"
