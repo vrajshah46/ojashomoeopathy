@@ -199,7 +199,7 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
   gap: 10rem;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   padding-bottom: 7rem;
   /* position: relative; */
 }
@@ -266,7 +266,7 @@ h1 {
 .home .about-image img {
   max-width: 95%;
   border-radius: 10px;
-  filter: drop-shadow(2px 4px 4px black);
+  filter: drop-shadow(1px 4px 10px black);
   /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
 }
 
@@ -1856,8 +1856,13 @@ textarea {
     top: 0;
   }
 
+  .home {
+    padding-top: 5rem;
+    gap: 0;
+  }
+
   .home .Main-picture img {
-    width: 80%;
+    width: 100%;
   }
 
   .home .doctor-photo {
